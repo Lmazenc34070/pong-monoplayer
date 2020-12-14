@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    color: deeppink;
+    color: hotpink;
     font-family: monospace;
 
     /** centre les éléments de la page **/
@@ -18,11 +18,23 @@ body {
 
     margin-top: 5px;
     border: 1px solid #ffffff;
-    border-top-color: deeppink;
-    border-bottom-color: deeppink;
+    border-top-color: hotpink;
+    border-bottom-color: hotpink;
 
     width: 800px;
     height: 400px;
+}
+
+.touche{
+    color: hotpink;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hotpink;
+    border-radius: 4px;
+    user-select:none;
 }
 
 .tiltHaut {
@@ -58,13 +70,13 @@ body {
     border-radius: 100%;
     width: 20px;
     height: 20px;
-    background-color: deeppink;
+    background-color: hotpink;
 }
 
 /** paramétres de la classe raquette **/
 .raquette {
     position: absolute;
-    background-color: deeppink;
+    background-color: hotpink;
     width: 10px;
     height: 100px;
     top: 10%;
@@ -103,14 +115,17 @@ body {
 
 }
 
-#vies{
+.vies{
     position : fixed;
-    top : 50%;
-    left : 80%;
+    top : 40%;
+    left : 75%;
     padding-top: 20%;
-    font-size: 15px;
+    font-size: 20px;
     padding-right: 10%;
-    color: deeppink;
+    color: hotpink;
+}
+#viesJoueur{
+
 }
 
 .btn{
@@ -129,13 +144,35 @@ body {
 
 }
 
+#texteScore{
+    position : fixed;
+    top : 40%;
+    left : 15%;
+    padding-top: 20%;
+    font-size: 20px;
+    padding-left: 10%;
+    color: hotpink;
+}
+#texteVie{
+    position : fixed;
+    top : 40%;
+    left : 70%;
+    padding-top: 20%;
+    font-size: 20px;
+    padding-right: 10%;
+    color: hotpink;
+}
 .score {
     position : fixed;
-    top : 50%;
-    left : 10px;
+    top : 40%;
+    left : 20%;
     padding-top: 20%;
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 10%;
-    color: deeppink;
+    color: hotpink;
+}
+
+#scoreJoueur{
+
 }
 

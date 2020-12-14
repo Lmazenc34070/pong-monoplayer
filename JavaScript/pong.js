@@ -10,11 +10,11 @@ let balle = new Balle($("#balle"));
 /**
  * @type {Raquette}
  */
-let raquetteGauche = new Raquette($("#gauche"),$("#Sgauche"));
+let raquetteGauche = new Raquette($("#gauche"),$("#scoreJoueur"), $("#viesJoueur"));
 /**
  * @type {Raquette}
  */
-let raquetteDroite = new Raquette($("#droite"),$("#Sdroite"));
+let raquetteDroite = new Raquette($("#droite"));
 /**
  * @type {HTMLElement}
  */

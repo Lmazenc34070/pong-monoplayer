@@ -175,8 +175,7 @@ class Balle {
             this.gauche = 0;
             this.angle = Math.PI - this.angle;
             this.recentrer();
-            raquetteDroite.gagne();
-
+            raquetteGauche.perdu();
         }
         //bas
         if (this.bas > terrain.hauteur) {
