@@ -24,9 +24,6 @@ let boutonDepart = document.getElementById("btnDepart");
  */
 let removeEcran = document.getElementById("ecran-debut");
 
-/**
- * Boucle de jeu, permet d'actualiser le déplacement des raquettes et de la balle
- */
 
 let demarrer = false;
 

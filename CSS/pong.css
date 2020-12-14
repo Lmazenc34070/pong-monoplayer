@@ -38,11 +38,11 @@ body {
 }
 
 .tiltHaut {
-    border-top-color: rgb(0, 250, 0) !important;
+    border-top-color: rgb(0,0,139) !important;
 }
 
 .tiltBas {
-    border-bottom-color: rgb(0, 250, 0) !important;
+    border-bottom-color: rgb(0,0,139) !important;
 }
 
 .tiltGauche {
