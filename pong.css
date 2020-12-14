@@ -1,0 +1,144 @@
+body {
+    background-color: white;
+    color: pink;
+    font-family: monospace;
+
+    /** centre les éléments de la page **/
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/** paramétre du terrain **/
+#terrain {
+    position: relative;
+
+    margin-top: 5px;
+    border: 1px solid #ffffff;
+    border-top-color: pink;
+    border-bottom-color: pink;
+
+    width: 800px;
+    height: 400px;
+}
+
+.tiltHaut {
+    border-top-color: rgb(0, 250, 0) !important;
+}
+
+.tiltBas {
+    border-bottom-color: rgb(0, 250, 0) !important;
+}
+
+.tiltGauche {
+    border-left-color: rgb(250, 0, 0) !important;
+}
+
+.tiltDroite {
+    border-right-color: rgb(250, 0, 0) !important;
+}
+
+.tiltRDroite {
+    background-color: rgb(0, 250, 0) !important;
+}
+
+.tiltRGauche {
+    background-color: rgb(0, 250, 0) !important;
+}
+
+/** Paramétres de la balle **/
+#balle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: pink;
+}
+
+/** paramétres de la classe raquette **/
+.raquette {
+    position: absolute;
+    background-color: pink;
+    width: 10px;
+    height: 100px;
+    top: 10%;
+}
+
+#droite {
+    right: 0%;
+}
+
+#gauche {
+    left: 0%;
+}
+
+.ecranDebut{
+    transition: all 3s;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 1;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+.ecranDebut>*{
+    margin: 10px;
+}
+#ecran-debut{
+
+}
+
+
+.btn{
+    background-color:#f043c8;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Courier New;
+    font-size:15px;
+    padding:10px 15px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+
+
+
+#btnDepart{
+
+}
+.score {
+    /**Propriétés communes au score**/
+    display: flex;
+    padding-top: 20%;
+    text-align: center;
+    font-size: 30px;
+}
+
+#Sgauche {
+    /**Différenciation du score gauche**/
+    padding-left: 25%;
+    float: left;
+    color: Yellow;
+}
+
+#Sdroite {
+    /**Différenciation du score droite**/
+    padding-right: 25%;
+    float: right;
+    color: pink;
+}
