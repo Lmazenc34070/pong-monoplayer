@@ -47,7 +47,7 @@ class Balle {
          *
          * @type {number}
          */
-        this.vitesseMax = terrain.largeur / 100;
+        this.vitesseMax = terrain.largeur / 200;
 
         /**
          *

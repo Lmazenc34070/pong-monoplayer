@@ -58,17 +58,13 @@ window.addEventListener("keydown", function (event) {
     }
 
     //Les touches bougent avec les appuies sur les touches respectives
-    if (event.key === "a") {
+    if (event.key === "h") {
         raquetteGauche.monter();
-    }
-    if (event.key === "q") {
-        raquetteGauche.descendre();
-    }
-    if (event.key === "p") {
-        raquetteDroite.monter();
-    }
-    if (event.key === "m") {
         raquetteDroite.descendre();
+    }
+    if (event.key === "b") {
+        raquetteGauche.descendre();
+        raquetteDroite.monter();
     }
     event.preventDefault();
 }, true);
@@ -79,10 +75,8 @@ window.addEventListener("keyup", function (event) {
         return
     }
     //Quand on relache les touches, les raquettes ne bougent plus
-    if (event.key === "a" || event.key === "q") {
+    if (event.key === "h" || event.key === "b") {
         raquetteGauche.arret();
-    }
-    if (event.key === "p" || event.key === "m") {
         raquetteDroite.arret();
     }
     event.preventDefault();

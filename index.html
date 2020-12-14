@@ -1,16 +1,16 @@
 <html>
 <head>
     <link rel="icon" href="https://www.francoischarron.com/datascontent/pong-atari-table-cafe-jeu-video.JPG">
-    <link rel="stylesheet" href="pong.css"/>
+    <link rel="stylesheet" href="CSS/pong.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Wooow un Pong excellent !!!</title>
 </head>
 <body>
 <div class="ecranDebut" id="ecran-debut">
         Utilise les touche <br><br>
-        <span class="touche">A</span>
+        <span class="touche">H</span>
         et
-        <span class="touche">Q</span><br><br>
+        <span class="touche">B</span><br><br>
         Tu dispose de 5 vies.<br>
         <3 <3 <3 <3 <3
 
@@ -21,15 +21,16 @@
     <div id="balle"></div>
     <div id="gauche" class="raquette"></div>
     <div id="droite" class="raquette"></div>
-    <div id="Sgauche" class="score">0</div>
-    <div id="Sdroite" class="score">0</div>
 </div>
+<div class="score">0</div>
+<div id="vies">5</div>
+
 </body>
 <!-- chargement des classes -->
-<script src="balle.js"></script>
-<script src="terrain.js"></script>
-<script src="raquette.js"></script>
-<script src="pong.js"></script>
+<script src="JavaScript/balle.js"></script>
+<script src="JavaScript/terrain.js"></script>
+<script src="JavaScript/raquette.js"></script>
+<script src="JavaScript/pong.js"></script>
 
 
 </html>

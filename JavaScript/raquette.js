@@ -37,13 +37,18 @@ class Raquette {
          * @type {number}
          */
         this.vitesse = 3;
+        /**
+         * @type {number}
+         */
+        this.vies = 5;
     }
 
 
     gagne() {
-        this.score = this.score + 1;
+        this.score = this.score + 10;
         this.$score.text(this.score);
     }
+
 
     /**
      *
